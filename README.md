@@ -26,9 +26,3 @@ Este projeto foi desenvolvido em um vídeo no meu canal do YouTube! Lá eu mostr
 * **Interface Web:** Streamlit
 * **Fonte de Dados:** yfinance (API do Yahoo Finance)
 * **Gráficos:** Plotly (utilizado internamente pelo Streamlit)
-
----
-
-## 🚀 Como Executar o Projeto
-
-Siga os passos abaixo para rodar o projeto na sua máquina local.
