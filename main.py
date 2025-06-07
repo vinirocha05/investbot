@@ -185,11 +185,11 @@ if "dados_acao" in st.session_state and not st.session_state["dados_acao"].empty
         if ultimo_preco < ultima_sma_20:
 
             st.success(
-                f"✅ **Alerta de Compra:** O preço atual (R$ {ultimo_preco:.2f}) está abaixo da média Móvel de 20 dias (R$ {ultima_sma_20:.2f}). Isso pode indicar uma oportunidade de compra, dependendo da sua estratégia!"
+                f"✅ **Alerta de Compra:** O preço atual (R\$ {ultimo_preco:.2f}) está abaixo da média Móvel de 20 dias (R\$ {ultima_sma_20:.2f}). Isso pode indicar uma oportunidade de compra, dependendo da sua estratégia!"
             )
         elif ultimo_preco > ultima_sma_20:
             st.info(
-                f"💡 **Preço Acima da Média:** O preço atual (R$ {ultimo_preco:.2f}) está ACIMA da Média Móvel de 20 dias (R$ {ultima_sma_20:.2f}). Monitore ou considere outras análises."
+                f"💡 **Preço Acima da Média:** O preço atual (R\$    {ultimo_preco:.2f}) está ACIMA da Média Móvel de 20 dias (R\$  {ultima_sma_20:.2f}). Monitore ou considere outras análises."
             )
         else:
             st.warning(
